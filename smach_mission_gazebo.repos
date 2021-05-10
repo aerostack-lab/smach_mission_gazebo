@@ -1,0 +1,109 @@
+repositories:
+
+#----------------------------------------------------------------------------
+# Messages
+#----------------------------------------------------------------------------
+  messages/aerostack_msgs:
+    type: git 
+    url: https://github.com/aerostack/aerostack_msgs
+    version: master
+
+#----------------------------------------------------------------------------
+# Behaviors
+#---------------------------------------------------------------------------- 
+  behaviors/basic_quadrotor_behaviors:
+    type: git 
+    url: https://github.com/aerostack/basic_quadrotor_behaviors
+    version: master
+  behaviors/quadrotor_motion_with_pid_control:
+    type: git 
+    url: https://github.com/aerostack/quadrotor_motion_with_pid_control
+    version: master  
+#----------------------------------------------------------------------------
+# Simulation
+#----------------------------------------------------------------------------
+  simulation/quadrotor_gazebo_simulator:
+    type: git 
+    url: https://github.com/aerostack/quadrotor_gazebo_simulator
+    version: master
+    
+#----------------------------------------------------------------------------
+# Hardware interface
+#----------------------------------------------------------------------------
+  hardware_interface/gazebo_interface:
+    type: git 
+    url: https://github.com/aerostack/gazebo_interface
+    version: master
+#----------------------------------------------------------------------------
+# User interface
+#----------------------------------------------------------------------------
+  user_interface/alphanumeric_viewer:
+    type: git 
+    url: https://github.com/aerostack/alphanumeric_viewer
+    version: master
+#----------------------------------------------------------------------------
+# Libraries
+#    ¿Quizá se pueden poner grupos de librerias en un sólo repo?
+#----------------------------------------------------------------------------
+  libraries/behaviorlib:
+    type: git 
+    url: https://github.com/cvar-upm/behaviorlib
+    version: master
+  libraries/robot_process:
+    type: git 
+    url: https://github.com/aerostack/robot_process
+    version: master
+  #----------------------------------------------------------------------------
+  # Agrupar estos dos en catkin?
+  #----------------------------------------------------------------------------
+  libraries/catkin_simple:
+    type: git
+    url: https://github.com/aerostack/catkin_simple
+    version: master
+  #----------------------------------------------------------------------------
+  # Agrupar estos dos en cvglib?
+  #----------------------------------------------------------------------------
+  libraries/lib_cvgekf:
+    type: git 
+    url: https://github.com/aerostack/lib_cvgekf
+    version: master
+  libraries/lib_cvgutils:
+    type: git 
+    url: https://github.com/aerostack/lib_cvgutils
+    version: master
+  #----------------------------------------------------------------------------
+  # Sin agrupar 
+  #----------------------------------------------------------------------------
+  libraries/mav_comm:
+    type: git
+    url: https://github.com/aerostack/mav_comm
+    version: master
+  libraries/pugixml:
+    type: git 
+    url: https://github.com/aerostack/pugixml
+    version: master
+  libraries/ros_utils_lib:
+    type: git 
+    url: https://bitbucket.org/visionaerialrobotics/ros_utils_lib
+    version: master  
+
+#----------------------------------------------------------------------------
+# Deprecated libraries
+#----------------------------------------------------------------------------
+  deprecated/libraries/dronemoduleros:
+    type: git 
+    url: https://github.com/aerostack/dronemoduleros
+    version: master
+#----------------------------------------------------------------------------
+# Deprecated messages
+#----------------------------------------------------------------------------
+  deprecated/messages/dronemsgsros:
+    type: git 
+    url: https://github.com/aerostack/dronemsgsros
+    version: master
+
+#----------------------------------------------------------------------------
+# Deprecated libraries
+#----------------------------------------------------------------------------
+
+
