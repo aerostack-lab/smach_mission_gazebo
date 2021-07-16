@@ -3,9 +3,9 @@
 NUMID_DRONE=111
 DRONE_SWARM_ID=1
 MAV_NAME=hummingbird_adr
-export AEROSTACK_PROJECT=${AEROSTACK_STACK}/projects/smach_mission_gazebo
+export APPLICATION_PATH=${PWD}
 
-. ${AEROSTACK_STACK}/config/mission/setup.sh
+
 #---------------------------------------------------------------------------------------------
 # INTERNAL PROCESSES
 #---------------------------------------------------------------------------------------------
@@ -41,7 +41,7 @@ exec bash\"" \
 --tab --title "Quadrotor Motion With PID Control" --command "bash -c \"
 roslaunch quadrotor_motion_with_pid_control quadrotor_motion_with_pid_control.launch --wait \
     namespace:=drone$NUMID_DRONE \
-    robot_config_path:=${AEROSTACK_PROJECT}/configs/drone$NUMID_DRONE \
+    robot_config_path:=${APPLICATION_PATH}/configs/drone$NUMID_DRONE \
     uav_mass:=0.7;
 exec bash\""  &
 
