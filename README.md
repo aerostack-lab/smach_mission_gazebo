@@ -18,9 +18,13 @@ In order to execute this project, follow the steps below.
  
         $ ./main_launcher.sh
 
+-Move to /configs/mission directory
+
+        $ cd configs/mission
+        
 - Execute the following command to run the mission:
 
-        
+        $ ./simple_mission.py
 
 - To stop the processes execute the following script:
 
