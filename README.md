@@ -18,7 +18,7 @@ In order to execute this project, follow the steps below.
  
         $ ./main_launcher.sh
 
--Move to /configs/mission directory
+- Move to /configs/mission directory
 
         $ cd configs/mission
         
@@ -36,9 +36,9 @@ In order to execute this project, follow the steps below.
 
 The following video illustrates how to launch the project:
 
-
+[ ![Launch](https://ibb.co/w4kNCYx](https://www.youtube.com/watch?v=ypH81AnQ-7w)
 
 The following video shows the mission execution:
 
-
+[ ![Launch](https://ibb.co/9NzCJT6)](https://www.youtube.com/watch?v=sGUK1goKSyI)
 
