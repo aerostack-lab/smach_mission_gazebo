@@ -36,9 +36,9 @@ In order to execute this project, follow the steps below.
 
 The following video illustrates how to launch the project:
 
-[ ![Launch](https://ibb.co/w4kNCYx)](https://www.youtube.com/watch?v=ypH81AnQ-7w)
+[ ![Launch](https://i.ibb.co/vkFxmDK/Captura-de-pantalla-de-2021-07-29-01-02-28.png)](https://www.youtube.com/watch?v=ypH81AnQ-7w)
 
 The following video shows the mission execution:
 
-[ ![Launch](https://ibb.co/9NzCJT6)](https://www.youtube.com/watch?v=sGUK1goKSyI)
+[ ![Launch](https://i.ibb.co/W6qYQyZ/Captura-de-pantalla-de-2021-07-29-01-05-48.png)](https://www.youtube.com/watch?v=sGUK1goKSyI)
 
