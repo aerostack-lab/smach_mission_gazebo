@@ -36,7 +36,7 @@ In order to execute this project, follow the steps below.
 
 The following video illustrates how to launch the project:
 
-[ ![Launch](https://ibb.co/w4kNCYx](https://www.youtube.com/watch?v=ypH81AnQ-7w)
+[ ![Launch](https://ibb.co/w4kNCYx)](https://www.youtube.com/watch?v=ypH81AnQ-7w)
 
 The following video shows the mission execution:
 
